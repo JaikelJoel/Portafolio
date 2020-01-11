@@ -107,7 +107,7 @@ h2 {
 }
 .hero_image {
   object-fit: cover;
-  height: 290px;
+  height: 280px;
   width: 480px;
 }
 .portfolio {
@@ -254,6 +254,68 @@ figure {
 /*.event_url:hover {
   background-color: #83dd0d;
 }*/
+
+.container-img {
+  width: 98.5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f4fbff;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.container-img .giroY:hover {
+  animation: 5.5s giroY infinite;
+  backface-visibility: visible;
+} 
+@keyframes giroY {
+  0%{
+    opacity: 0.5;
+    transform: perspective(400px)
+               rotateY(180deg);
+  }
+  40%{
+    transform: perspective(400px)
+               rotateY(-20deg);
+  }
+  70%{
+    transform: perspective(400px)
+               rotateY(20deg);
+  }
+}
+/* .container-img .giroX:hover {
+  animation: 5.5s giroX 1;
+  backface-visibility: visible;
+} 
+@keyframes giroX {
+  0%{
+    opacity: 0.5;
+    transform: perspective(400px)
+               rotateX(180deg);
+  }
+  40%{
+    transform: perspective(400px)
+               rotateX(-15deg);
+  }
+  70%{
+    transform: perspective(400px)
+               rotateX(10deg);
+  }
+}
+ */
+.container-img img{
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  margin: 15px 0;
+  transition-duration: 1s;
+  position: relative;
+
+}
+/* .container-img img:hover {
+  transform: perspective(100px)
+             rotateY(80deg);
+} */
 .contact {
   background-color: #026fff;
   height: 150px;
