@@ -304,8 +304,8 @@ figure {
 }
  */
 .container-img img{
-  width: 340px;
-  height: 340px;
+  width: 330px;
+  height: 330px;
   border-radius: 50%;
   margin: 15px 0;
   transition-duration: 1s;
@@ -550,8 +550,8 @@ figure {
   }
 
   .container-img img{
-    width: 290px;
-    height: 290px;
+    width: 285px;
+    height: 285px;
   
   }
   .event_details {
@@ -572,8 +572,8 @@ figure {
     padding: 2em 1em;
   }
   .container-img img{
-    width: 260px;
-    height: 260px;
+    width: 250px;
+    height: 250px;
   
   }
 }
