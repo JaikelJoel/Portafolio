@@ -265,7 +265,7 @@ figure {
   overflow: hidden;
 }
 .container-img .giroY:hover {
-  animation: 5.5s giroY infinite;
+  animation: 5.5s giroY 1;
   backface-visibility: visible;
 } 
 @keyframes giroY {
