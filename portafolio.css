@@ -516,11 +516,17 @@ figure {
   }
 }
 @media screen and (max-width: 552px) {
+ 
   .contact {
     height: auto;
     text-align: center;
     display: block;
     padding: 1.5em 0;
+  }
+  .container-img img{
+    width: 300px;
+    height: 300px;
+  
   }
   .form_email button {
     margin: 1em auto;
@@ -542,6 +548,12 @@ figure {
   .project-details {
     font-size: 12px;
   }
+
+  .container-img img{
+    width: 290px;
+    height: 290px;
+  
+  }
   .event_details {
     margin: -2em .5em .5em;
     padding: 1em;
@@ -558,5 +570,10 @@ figure {
   }
   .hero {
     padding: 2em 1em;
+  }
+  .container-img img{
+    width: 260px;
+    height: 260px;
+  
   }
 }
